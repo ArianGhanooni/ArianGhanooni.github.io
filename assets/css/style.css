@@ -11,6 +11,12 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Container */
+.container{
+    width: 60%;
+    margin-left: 40%;
+}
+
 /* nav */
 nav{
     width: 5%;
@@ -90,15 +96,11 @@ nav{
 }
 
 /* About Me */
-.about_me{
-    width: 60%;
-    margin-left: 40%;
-}
 .about_me_box{
     width: 90%;
     margin: auto;
-    padding: 10vh 0vh;
-    border-bottom: 0.2vh solid #8d8e8f;
+    padding: 10vh 0vh 5vh 0vh;
+    border-bottom: 0.1vh solid #8d8e8f;
 }
 .about_me_box h1{
     font-size: 7vh;
@@ -112,5 +114,56 @@ nav{
     padding: 2vh 0vh 3vh 0vh;
 }
 .about_me_box p{
+    font-size: 2.3vh;
     color: #8d8e8f;
+}
+
+/* skills */
+.skills{
+    width: 90%;
+    margin: auto;
+    padding: 5vh 0vh;
+    border-bottom: 0.1vh solid #8d8e8f;
+}
+.skill_title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 2.5vh;
+}
+.skill_title i{
+    color: #d62222;
+    font-size: 4vh;
+    padding-right: 1vh;
+}
+.skill_title span{
+    font-size: 5vh;
+    font-weight: 700;
+    color: white;
+}
+.skill_item_title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 0vh 2vh 0vh;
+}
+.skill_item_title h3{
+    font-size: 2.5vh;
+    font-weight: 400;
+    color: white;
+}
+.skill_item_title span{
+    font-size: 2.5vh;
+    font-weight: 600;
+    color: #d62222;
+}
+.all_skill{
+    width: 100%;
+    border-bottom: 0.5vh solid #8d8e8f;
+    position: relative;
+}
+.some_skill{
+    position: absolute;
+    border-bottom: 0.5vh solid #d62222;
 }
