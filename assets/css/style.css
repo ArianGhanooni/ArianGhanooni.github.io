@@ -88,3 +88,29 @@ nav{
 .photo_info>div a:hover{
     color: #d62222;
 }
+
+/* About Me */
+.about_me{
+    width: 60%;
+    margin-left: 40%;
+}
+.about_me_box{
+    width: 90%;
+    margin: auto;
+    padding: 10vh 0vh;
+    border-bottom: 0.2vh solid #8d8e8f;
+}
+.about_me_box h1{
+    font-size: 7vh;
+    font-weight: 800;
+    color: white;
+}
+.about_me_box h2{
+    font-size: 2.5vh;
+    font-weight: 400;
+    color: #d62222;
+    padding: 2vh 0vh 3vh 0vh;
+}
+.about_me_box p{
+    color: #8d8e8f;
+}
