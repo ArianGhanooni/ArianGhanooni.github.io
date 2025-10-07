@@ -3,9 +3,6 @@
     margin: 0vh;
     font-family: "Roboto", sans-serif;
 }
-body{
-    height: 5000px;
-}
 html{
     background-color: #1c1e1f;
     scroll-behavior: smooth;
@@ -262,6 +259,33 @@ nav{
     padding-bottom: 1.5vh;
 }
 .education_info{
+    color: #8d8e8f;
+    display: block;
+    font-size: 2.5vh;
+    padding-bottom: 1.5vh;
+}
+
+/* ccontact us */
+.contact_box{
+    width: 90%;
+    margin: auto;
+    padding: 5vh 0vh 10vh 0vh;
+}
+.contact_item{
+    padding-top: 2vh;
+}
+.contact_title{
+    font-size: 3.5vh;
+    color: white;
+    display: block;
+    font-weight: 600;
+    padding-bottom: 1.5vh;
+}
+.contact_title i{
+    color: #d62222;
+    font-size: 3vh!important;
+}
+.contact_info{
     color: #8d8e8f;
     display: block;
     font-size: 2.5vh;
