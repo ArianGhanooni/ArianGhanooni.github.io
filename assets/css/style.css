@@ -236,3 +236,34 @@ nav{
     font-size: 2.5vh;
     padding-bottom: 1.5vh;
 }
+
+/* education */
+.education_box{
+    width: 90%;
+    margin: auto;
+    padding: 5vh 0vh;
+    border-bottom: 0.1vh solid #8d8e8f;
+}
+.education_item{
+    padding-top: 2vh;
+}
+.education_title{
+    font-size: 3.5vh;
+    color: white;
+    display: block;
+    font-weight: 600;
+    padding-bottom: 1.5vh;
+}
+.education_year{
+    color: #d62222;
+    font-size: 2vh;
+    display: block;
+    font-weight: 400;
+    padding-bottom: 1.5vh;
+}
+.education_info{
+    color: #8d8e8f;
+    display: block;
+    font-size: 2.5vh;
+    padding-bottom: 1.5vh;
+}
